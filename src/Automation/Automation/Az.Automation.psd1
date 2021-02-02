@@ -12,7 +12,7 @@
 # RootModule = ''
 
 # Version number of this module.
-ModuleVersion = '1.4.2'
+ModuleVersion = '1.4.3'
 
 # Supported PSEditions
 CompatiblePSEditions = 'Core', 'Desktop'
@@ -168,7 +168,7 @@ PrivateData = @{
         # IconUri = ''
 
         # ReleaseNotes of this module
-        ReleaseNotes = '* Fixed issue where description was not populated for update management schedules'
+        ReleaseNotes = '* Fixed the issue of processing `PSCustomObject` and `Array`.'
 
         # Prerelease string of this module
         # Prerelease = ''
