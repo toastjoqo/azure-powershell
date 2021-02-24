@@ -28,7 +28,7 @@ Set-AzSynapseIntegrationRuntime [-ResourceGroupName <String>] -WorkspaceName <St
 ### SetByLinkedIntegrationRuntimeName
 ```
 Set-AzSynapseIntegrationRuntime [-ResourceGroupName <String>] -WorkspaceName <String> -Name <String>
- [-Type <String>] [-Description <String>] -SharedIntegrationRuntimeResourceId <String> [-Force]
+ [-Type <String>] [-Description <String>]  [-Force]
  [-DefaultProfile <IAzureContextContainer>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
@@ -48,7 +48,7 @@ Set-AzSynapseIntegrationRuntime -Name <String> -WorkspaceObject <PSSynapseWorksp
 ### SetByLinkedIntegrationRuntimeParentObject
 ```
 Set-AzSynapseIntegrationRuntime -Name <String> -WorkspaceObject <PSSynapseWorkspace> [-Type <String>]
- [-Description <String>] -SharedIntegrationRuntimeResourceId <String> [-Force]
+ [-Description <String>]  [-Force]
  [-DefaultProfile <IAzureContextContainer>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
@@ -68,7 +68,7 @@ Set-AzSynapseIntegrationRuntime -ResourceId <String> [-Type <String>] [-Descript
 ### SetByLinkedIntegrationRuntimeResourceId
 ```
 Set-AzSynapseIntegrationRuntime -ResourceId <String> [-Type <String>] [-Description <String>]
- -SharedIntegrationRuntimeResourceId <String> [-Force] [-DefaultProfile <IAzureContextContainer>] [-WhatIf]
+  [-Force] [-DefaultProfile <IAzureContextContainer>] [-WhatIf]
  [-Confirm] [<CommonParameters>]
 ```
 
